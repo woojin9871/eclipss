@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;musicByGenre.html&apos; to &apos;music/src/main/resources/templates.music&apos;&#x0D;&#x0A;- Original project: &apos;music_god&apos;&#x0D;&#x0A;- Destination element: &apos;music/src/main/resources/templates.music&apos;&#x0D;&#x0A;- Original element: &apos;musicByGenre.html&apos;" description="Copy file" destination="=music/src\/main\/resources=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;templates.music" element1="src/main/resources/templates/music/musicByGenre.html" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1682567217152" units="0" version="1.0"/>
+</session>

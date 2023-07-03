@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Music.java&apos; to &apos;com.team.domain.Music.java&apos;&#x0D;&#x0A;- Original project: &apos;music&apos;&#x0D;&#x0A;- Destination element: &apos;com.team.domain.Music.java&apos;&#x0D;&#x0A;- Original element: &apos;com.team.domain.Music.java&apos;" description="Copy compilation unit" destination="/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;com.team.domain{Music.java" element1="/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;com.team.domain{Music.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1686895602881" units="1" version="1.0"/>
+</session>

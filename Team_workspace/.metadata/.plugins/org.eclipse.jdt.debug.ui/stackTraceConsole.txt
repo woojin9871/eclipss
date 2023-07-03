@@ -1,0 +1,27 @@
+	@DeleteMapping("/musicBoard/delete")
+	public String delete(int musicNo) throws Exception {
+		// 게시글 번호로 게시글 삭제
+		log.info("musicNo : " + musicNo);
+		
+		int result = service.delete(musicNo);
+		
+		return "redirect:/musicBoard/list";
+	}
+
+	@PostMapping("/musicBoard/delete")
+	@PreAuthorize("hasAnyRole('USER', 'ADMIN')")
+	public String deletePost(int musicNo, Principal principal) throws Exception {
+		// 게시글 번호로 게시글 삭제
+		log.info("musicNo : " + musicNo);
+		MusicBoard music = service.read(musicNo);
+		String loginUserId = principal.getName();
+		String musicBoardUserId = music.getWriter();
+		
+		if( !musicBoardUserId.equals(loginUserId) ) {
+			return "redirect:/musicBoard/read?musicNo=" + musicNo;
+		}
+		
+		int result = service.delete(musicNo);
+		
+		return "redirect:/musicBoard/list";
+	}

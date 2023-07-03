@@ -1,0 +1,4 @@
+//org.eclipse.languageserver.languages.springboot/org.eclipse.jdt.core.javaSource=false
+//org.eclipse.languageserver.languages.springboot/org.springframework.boot.ide.properties.application.properties=false
+//org.eclipse.wildwebdeveloper.angular/org.eclipse.wildwebdeveloper.html=false
+eclipse.preferences.version=1

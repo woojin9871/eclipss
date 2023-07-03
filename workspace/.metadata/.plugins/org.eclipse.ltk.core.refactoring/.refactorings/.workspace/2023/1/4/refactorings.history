@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;spring-security-board-bootstrap&apos;" deleteContents="false" description="Delete resource &apos;spring-security-board-bootstrap&apos;" element1="/spring-security-board-bootstrap" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1674784243146"/>
+</session>

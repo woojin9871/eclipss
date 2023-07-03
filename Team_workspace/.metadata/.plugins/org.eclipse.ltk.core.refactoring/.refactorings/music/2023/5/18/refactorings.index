@@ -1,0 +1,9 @@
+1682993905125	Rename type 'Board'
+1682993977804	Rename type 'BoardService'
+1682993992318	Rename type 'BoardMapper'
+1682994044667	Rename type 'BoardServiceImpl'
+1682994062832	Rename type 'BoardController'
+1682994923466	Rename resource 'BoardMapper.xml'
+1682995247118	Rename package 'templates.board'
+1682999128036	Rename type 'BoardMusicMapper'
+1683087029684	Delete element

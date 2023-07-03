@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+newFileTemplateName=New Thymeleaf HTML
+org.eclipse.wst.sse.ui.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="html_new" deleted\="false" description\="Thymeleaf HTML" enabled\="true" name\="New Thymeleaf HTML">&lt;\!DOCTYPE html&gt;&\#13;\r\n&lt;html xmlns\:th\="http\://www.thymeleaf.org/"&\#13;\r\n\t  xmlns\:sec\="http\://www.thymeleaf.org/extras/spring-security"&gt;&\#13;\r\n&lt;head&gt;&\#13;\r\n\t&lt;meta charset\="${encoding}"&gt;&\#13;\r\n\t&lt;title&gt;${cursor}&lt;/title&gt;&\#13;\r\n&lt;/head&gt;&\#13;\r\n&lt;body&gt;&\#13;\r\n\t${cursor}&\#13;\r\n&lt;/body&gt;&\#13;\r\n&lt;/html&gt;&\#13;\r\n</template></templates>

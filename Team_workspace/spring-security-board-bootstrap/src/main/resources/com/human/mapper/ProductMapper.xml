@@ -1,0 +1,54 @@
+
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.human.mapper.ProductMapper">
+
+	<!-- 상품 목록 -->
+	<select id="list" resultType="Product">
+		SELECT *
+		FROM product
+		ORDER BY reg_date DESC
+	</select>
+	
+	<!-- 상품 조회 -->
+	<select id="read" resultType="Product">
+		SELECT *
+		FROM product
+		WHERE prod_num = #{ProdNum}
+	</select>
+	
+	<!-- 상품 등록 -->
+		<insert id="insert">
+		INSERT INTO product ( prod_num, name, kind, price2, content)
+		VALUES ( SEQ_PRODUCT.nextval, #{name}, #{kind}, #{price2}, #{content})
+		<!--  VALUES ( SEQ_BOARD.nextval, #{0}, #{1}, #{2} )  -->
+	</insert>
+	
+	<!-- 상품 개수 -->
+	<select id="count" resultType="int">
+		SELECT COUNT(*)
+		FROM product
+	</select>
+	
+	<!-- [페이지] 상품 목록 -->
+	   <select id="listWithPage" resultType="Product">
+      <!-- CDATA :  <> 기호를 태그로 인식하지 않고, 문자열로 사용되도록 한다 -->
+      <![CDATA[
+	  select *
+      from(
+         SELECT a.*, ROWNUM rno
+         FROM (
+             SELECT *
+             FROM product
+             ORDER BY prod_num DESC
+            ) a
+         order by prod_num desc
+         ) b
+      WHERE b.rno >= #{startRowNo}
+        AND b.rno <= #{endRowNo}
+           
+       ]]>
+   </select>
+</mapper>

@@ -1,0 +1,13 @@
+INDEX VERSION 1.131
+C:\kwj\Java\java_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1994913103.index
+\testProject\src\main\java
+C:\kwj\Java\java_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3175926653.index
+\testProject1\src\main\java
+C:\kwj\Java\java_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\819823595.index
+\webproject11\src\main\java
+C:\kwj\Java\java_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3564383260.index
+\testProject1\src\main\java
+C:\kwj\Java\java_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1175251944.index
+\testProject\target\generated-sources\annotations
+C:\kwj\Java\java_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3746138359.index
+\webproject1\src\main\java

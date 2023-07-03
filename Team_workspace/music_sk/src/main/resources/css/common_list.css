@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+colgroup{
+	display: table-column;
+}
+
+.service_list_song{
+	text-align:center;
+	font: inherit;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "돋움",Dotum,"맑은 고딕","Malgun Gothic","Apple Gothic",sans-serif;
+    letter-spacing: 0;
+    font-size: 12px;
+    color: #666;
+    line-height: 18px;
+    background: #fff;
+    -webkit-text-size-adjust: none;
+}

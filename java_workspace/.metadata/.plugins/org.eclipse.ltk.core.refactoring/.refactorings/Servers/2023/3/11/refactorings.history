@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Servers/Tomcat v9.0 Server at for maven1-config&apos; to &apos;Tomcat v9.0 Server at for maven-config&apos;" description="Rename resource &apos;Tomcat v9.0 Server at for maven1-config&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Tomcat v9.0 Server at for maven1-config" name="Tomcat v9.0 Server at for maven-config" stamp="1678767279711" updateReferences="true"/>
+</session>
